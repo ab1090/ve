@@ -4,7 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "start": "remotion preview",
+    "start": "remotion studio",
     "dev": "remotion preview",
     "build": "remotion build",
     "render": "remotion render MorphingBlobReel out/reel.mp4 --overwrite",
@@ -13,17 +13,18 @@
     "svg:clean:all": "node scripts/clean-svg-all.mjs"
   },
   "dependencies": {
-    "@remotion/cli": "^4.0.0",
+    "@remotion/cli": "4.0.370",
     "@remotion/player": "^4.0.0",
     "@remotion/renderer": "^4.0.0",
     "fast-xml-parser": "^4.3.2",
     "flubber": "^0.4.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "remotion": "4.0.370",
     "zod": "^3.22.4"
   },
   "devDependencies": {
-    "@types/flubber": "^0.4.4",
+    "@types/flubber": "^0.4.0",
     "@types/react": "^18.2.15",
     "@types/react-dom": "^18.2.7",
     "svgo": "^3.2.0",
