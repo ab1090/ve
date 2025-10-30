@@ -1,7 +1,7 @@
 import React from 'react';
-import { Composition } from 'remotion';
-import { MorphingBlobScene } from './scenes/MorphingBlobScene';
-import { brand } from './tokens/brand';
+import {Composition} from 'remotion';
+import {MorphingBlobScene} from './scenes/MorphingBlobScene';
+import {brand} from './tokens/brand';
 
 export const RemotionRoot: React.FC = () => (
   <>
@@ -14,6 +14,10 @@ export const RemotionRoot: React.FC = () => (
       height={1920}
       defaultProps={{
         title: 'Your Hook Here',
+        subtitle: 'Storyboard • Script • Shoot • Ship',
+        highlight: 'Ali Abdaal energy in 6 seconds',
+        cta: 'Build the reel blueprint',
+        ctaNote: 'Modular, swappable, ready for remixes',
         bgA: brand.colors.bgA,
         bgB: brand.colors.bgB,
         stroke: brand.colors.stroke,
